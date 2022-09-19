@@ -23,7 +23,7 @@ list1 = list(df['LinkJugadores'].values.tolist())
 #Sacamos la info de cada jugador
 noList,imList,na1List,na2List,na3List,biList,agList,heList,poList,otList,coList,exList,teList,mvList,leList = [],[],[],[],[],[],[],[],[],[],[],[],[],[],[]
 
-gateway = ApiGateway("https://www.transfermarkt.com",access_key_id = "AKIAT5DZSBQO7XJQH7FF", access_key_secret = "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")
+gateway = ApiGateway("https://www.transfermarkt.com",access_key_id = "XXXX", access_key_secret = "XXXXXXXXX")
 gateway.start()
 
 def getInfo(link: str,session):

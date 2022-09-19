@@ -20,7 +20,7 @@ list1 = list(df['Link'].values.tolist())
 nameList = []
 transfer_history = pd.DataFrame(columns=["Link","Player","Season", "Date", "Left", "Joined", "MV", "Fee"])
 transfer_history2 = pd.DataFrame(columns=["Link","Player","Season", "Date", "Left", "Joined", "MV", "Fee"])
-gateway = ApiGateway("https://www.transfermarkt.com",access_key_id = "AKIAT5DZSBQO7XJQH7FF", access_key_secret = "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")
+gateway = ApiGateway("https://www.transfermarkt.com",access_key_id = "XXXXXX", access_key_secret = "XXXXXXXXXX")
 gateway.start()
 
 def getInfo(link: str,session):
